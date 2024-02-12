@@ -1,7 +1,7 @@
 name = "demo-worker"
 main = "src/index.js"
 compatibility_date = "2024-02-07"
-account_id = "f2841fbcd2572647ce57ba9be1593bd3"
+account_id = ""
 workers_dev = false
 
 [[r2_buckets]]
