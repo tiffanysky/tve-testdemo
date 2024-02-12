@@ -1,0 +1,14 @@
+name = "demo-worker"
+main = "src/index.js"
+compatibility_date = "2024-02-07"
+account_id = "f2841fbcd2572647ce57ba9be1593bd3"
+workers_dev = false
+
+[[r2_buckets]]
+binding = "country_buckets"
+bucket_name = "myr2-tvetest-bucket"
+preview_bucket_name = "worker-r2-dev"
+
+[env.production]
+name = "tve-testdemo.pages.dev"
+route = "tunnel.tvetest.tech/*"
