@@ -11,4 +11,4 @@ preview_bucket_name = "worker-r2-dev"
 
 [env.production]
 name = "tve-testdemo.pages.dev"
-route = "tunnel.tvetest.tech/*"
+route = "tunnel.tvetest.tech"
